@@ -1,0 +1,4 @@
+tensorflow[and-cuda]
+scikit-learn
+matplotlib
+seaborn
