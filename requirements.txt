@@ -1,4 +1,5 @@
-tensorflow[and-cuda]
+tensorflow[and-cuda] == 2.16.0
 scikit-learn
 matplotlib
 seaborn
+pandas
