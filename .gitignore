@@ -165,7 +165,10 @@ cython_debug/
 
 
 # ML models
-ml_models/
 */models/
+**/models/
 */kaggle/
 *.zip
+
+#Random files
+*/PyTorch_4_Ex_CNN_Generalization_&_Augumentation.ipynb
