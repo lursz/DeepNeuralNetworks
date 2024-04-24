@@ -172,4 +172,5 @@ cython_debug/
 *.zip
 
 #Random files
+#Lab4
 */PyTorch_4_Ex_CNN_Generalization_&_Augumentation.ipynb
