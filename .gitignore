@@ -167,7 +167,7 @@ cython_debug/
 # ML models
 */models/
 **/models/
-*/kaggle/
+**/kaggle/
 */flowers/
 *.zip
 
