@@ -1,5 +1,8 @@
-tensorflow[and-cuda]
-scikit-learn
-matplotlib
-seaborn
-pandas
+torch>=2.2.2
+torchvision>=0.17.2
+torchaudio>=2.2.2
+tensorflow[and-cuda]==2.14.1
+scikit-learn>=1.4.2
+matplotlib>=3.8.4
+seaborn>=0.13.2
+pandas>=2.2.1
