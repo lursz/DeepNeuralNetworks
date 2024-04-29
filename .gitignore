@@ -170,6 +170,7 @@ cython_debug/
 **/kaggle/
 */flowers/
 *.zip
+*.pth
 
 #Random files
 #Lab4
