@@ -73,7 +73,7 @@ Windows 10 or 11 Only...
     f. Now you will get (base)
     
 4. Environment and Cuda, Cudnn(GO on pasting every line in (base))
-	a. conda create --name tf python=3.9
+	a. conda create --name tf python=3.11
     b. conda activate tf
     c. nvidia-smi (To Check GPU )
     d. conda install -c conda-forge cudatoolkit=11.8.0
@@ -83,7 +83,7 @@ Windows 10 or 11 Only...
     h. echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CUDNN_PATH/lib' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 	
 5. Installing Tensorflow in env
-	a. pip install --upgrade pip
+    a. pip install --upgrade pip
     b. pip install tensorflow==2.14.1
     c. python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))" (To Check GPU)
     
